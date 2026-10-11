@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width:100%;
+    background:rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.nav-title {
+    font-size: 24px;
+    color:blue;
+    /* color: white; */
+    width: max-content;
+}
+
+.nav-links {
+    align-self:center;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    color:white;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color:blue;
+}
+
+.nav-links a:hover {
+    text-underline-offset: 10px;
+    text-decoration: underline;
+}
+
+#Home {
+    height: 100vh;
+}
